@@ -30,8 +30,7 @@ document.body.onload = function() {
 setTimeout(function() {
 		var preloader = document.querySelector('.preloader');
 // 		if(!preloader.classList.contains('done')) 
-		If( preloader && !preloader.classlist.contains('done'))
-		{
+		If( preloader && !preloader.classlist.contains('done')){
 			preloader.classList.add('done');
 		}
 	},3000)
@@ -39,18 +38,18 @@ setTimeout(function() {
 
 
  if($(window).width() <= 575.98) {
- 	$('.header-nav__btn').attr('src', '/img/menu.svg');
+ 	$('.header-nav__btn').attr('src', '/img/menu2.png');
 
  	window.onscroll = function() {
 	    let scrolled = window.pageYOffset || document.documentElement.scrollTop;
 	    if(scrolled > 50){
 	        $(".header-main").css('top','0');
-	        $(".header-main .container").css('background','#D10D0F');
+	        $(".header-main .container").css('background','#051d5b');
 	        $(".header-nav__back .back").css('display', 'none');
 	        $(".header-nav__back .top").css('display', 'inline');
 	    }
 	    if(50 > scrolled){
-	        $(".header-main").css('top','20px');   
+	        $(".header-main").css('top','10px');   
 	        $(".header-main .container").css('background','transparent'); 
 	        $(".header-nav__back .top").css('display', 'none');
 	        $(".header-nav__back .back").css('display', 'inline');  
