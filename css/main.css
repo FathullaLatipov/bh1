@@ -3557,9 +3557,6 @@ a {
     .header-nav__logo {
         height: 50px;
     }
-    .header-nav__logo img {
-        height: 100%;
-    }
     .seoul-logo {
         -webkit-transform: scale(0.8);
         transform: scale(0.8);
