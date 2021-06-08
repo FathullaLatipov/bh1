@@ -26,16 +26,6 @@ $(document).on("click", ".menu-close", function() {
  	console.log(`${i} is ${logo[i].getTotalLength()}`);
  }*/
 
-document.body.onload = function() {
-setTimeout(function() {
-		var preloader = document.querySelector('.preloader');
-		if(!preloader.classList.contains('done')){
-			preloader.classList.add('done');
-		}
-	},3000)
-}
-
-
  if($(window).width() <= 575.98) {
  	$('.header-nav__btn').attr('src', 'img/menu2.png');
 
