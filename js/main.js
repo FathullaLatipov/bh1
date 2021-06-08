@@ -27,7 +27,7 @@ $(document).on("click", ".menu-close", function() {
  }*/
 
  if($(window).width() <= 575.98) {
- 	$('.header-nav__btn').attr('src', 'img/menu2.png');
+ 	$('.header-nav__btn').attr('src', '/img/menu2.png');
 
  	window.onscroll = function() {
 	    let scrolled = window.pageYOffset || document.documentElement.scrollTop;
